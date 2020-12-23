@@ -9,6 +9,7 @@ html,body{
 @font-face{
 	font-family: 'Montserrat-Regular';
 	src: url('Montserrat-Regular.ttf');
+	font-weight: bold;
 }
 @font-face{
 	font-family: 'Digiface Regular';
@@ -304,9 +305,8 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 100%;
+	height: 70%;
 	width: 100%;
-/* 	margin-bottom: 30px; */
 	font-family: 'Digiface Regular';
 }
 .box{
