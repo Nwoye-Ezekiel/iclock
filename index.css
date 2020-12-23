@@ -11,8 +11,8 @@ html,body{
 	src: url('Montserrat.ttf');
 }
 @font-face{
-	font-family: DIGIFACE;
-	src: url('DIGIFACE.ttf');
+	font-family: Digiface Regular;
+	src: url('Digiface Regular.ttf');
 }
 body{
 	position: relative;
@@ -306,7 +306,7 @@ body{
 	height: 100%;
 	width: 100%;
 	margin-bottom: 30px;
-	font-family: Digiface;
+	font-family: Digiface Regular;
 }
 .box{
 	display: flex;
