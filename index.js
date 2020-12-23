@@ -129,7 +129,6 @@ function moveHands()
 			document.getElementById('toggle').style.background = '#CECECE';
 			document.getElementById('light').style.background = '#CECECE';
 			document.getElementById('icon').style.color = '#999999';
- 			//document.getElementById('header').style.color = “red”;
 			for (var i = 0; i < bColor.length; i++) {
 				bColor[i].style.color = '#1b1e22';
 			}
@@ -145,7 +144,6 @@ function moveHands()
 			document.getElementById('toggle').style.background = 'red';
 			document.getElementById('light').style.background = 'red';
 			document.getElementById('icon').style.color = 'red';
-                        //document.getElementById('header').style.color = “#f7f7f7”;
 			for (var i = 0; i < bColor.length; i++) {
 				bColor[i].style.color = '#f7f7f7';
 			}
