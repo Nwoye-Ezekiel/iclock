@@ -11,7 +11,7 @@ html,body{
 	src: url('Montserrat.ttf');
 }
 @font-face{
-	font-family: Digiface Regular;
+	font-family: 'Digiface Regular';
 	src: url('Digiface Regular.ttf');
 }
 body{
@@ -306,7 +306,7 @@ body{
 	height: 100%;
 	width: 100%;
 	margin-bottom: 30px;
-	font-family: Digiface Regular;
+	font-family: Digiface Regular, Montserrat;
 }
 .box{
 	display: flex;
