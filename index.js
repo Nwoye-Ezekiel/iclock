@@ -122,6 +122,7 @@ function moveHands()
 			document.getElementById('spacer').style.flexGrow = '0';
 
 			document.body.style.background = '#E0E0E0';
+                        document.getElementById('header').style.color = 'red';
 			document.getElementById('clock').style.cssText = "background-color: #E0E0E0;border: 4px #E0E0E0 solid;";
 			document.getElementById('digital').style.cssText = "background-color: #E0E0E0;border: 5px #E0E0E0 solid;";
 			document.getElementById('date').style.cssText = "background-color: #E0E0E0;border: 1px #E0E0E0 solid;";
@@ -137,6 +138,7 @@ function moveHands()
 			document.getElementById('spacer').style.flexGrow = '1';
 
 			document.body.style.background = '#1b1e22';
+                        document.getElementById('header').style.color = '#f7f7f7';
 			document.getElementById('clock').style.cssText = "background-color: #1b1e22;border: 4px #1b1e22 solid;";
 			document.getElementById('digital').style.cssText = "background-color: #1b1e22;border: 5px #1b1e22 solid;";
 			document.getElementById('date').style.cssText = "background-color: #1b1e22;border: 1px #1b1e22 solid;";
