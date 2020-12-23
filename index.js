@@ -125,7 +125,7 @@ function moveHands()
                         document.getElementById('header').style.color = 'red';
 			document.getElementById('clock').style.cssText = "background-color: #E0E0E0;border: 4px #E0E0E0 solid;";
 			document.getElementById('digital').style.cssText = "background-color: #E0E0E0;border: 5px #E0E0E0 solid;";
-			document.getElementById('date').style.cssText = "background-color: #E0E0E0;border: 1px #E0E0E0 solid;";
+			document.getElementById('date').style.cssText = "background-color: #E0E0E0;border: 1px #E0E0E0 solid;color=‘red’";
 			var bColor = document.getElementsByClassName('black');
 			document.getElementById('toggle').style.background = '#CECECE';
 			document.getElementById('light').style.background = '#CECECE';
@@ -141,7 +141,7 @@ function moveHands()
                         document.getElementById('header').style.color = '#f7f7f7';
 			document.getElementById('clock').style.cssText = "background-color: #1b1e22;border: 4px #1b1e22 solid;";
 			document.getElementById('digital').style.cssText = "background-color: #1b1e22;border: 5px #1b1e22 solid;";
-			document.getElementById('date').style.cssText = "background-color: #1b1e22;border: 1px #1b1e22 solid;";
+			document.getElementById('date').style.cssText = "background-color: #1b1e22;border: 1px #1b1e22 solid;color=‘#f7f7f7’";
 			var bColor = document.getElementsByClassName('black');
 			document.getElementById('toggle').style.background = 'red';
 			document.getElementById('light').style.background = 'red';
