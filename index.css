@@ -33,6 +33,7 @@ body{
 	color: #1b1e22;
 }
 .header{
+	color: red;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -330,7 +331,7 @@ body{
 	font-size: 12px;
 }
 .day{
-	left: 24px;
+	left: 22px;
 }
 .month{
 	left: 44.5%;
