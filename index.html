@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://kit.fontawesome.com/6d56d9fa5c.js" crossorigin="anonymous"></script>
+	<title>clock</title>
+</head>
+<body>
+	<div class="header black" id="header">
+		<span class="name">iClock</span>
+		<div class="cont">
+			<i id="icon" class="fas fa-power-off"></i>
+			<div id="toggle" class="toggle" onclick="slide()">
+				<div class="spacer" id="spacer"></div>
+				<div class="switch" id="switch">
+					<div class="light" id="light"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='clock' class="clock">
+		<div id="date" class="date"></div>
+		<div id="num" class="num-cont">
+			<div id="num" class="num num1 black">
+				<p>1</p>
+			</div>
+			<div id="num" class="num num2 black">
+				<p>2</p>
+			</div>
+			<div id="num" class="num num3 black">
+				<p>3</p>
+			</div>
+			<div id="num" class="num num4 black">
+				<p>4</p>
+			</div>
+			<div id="num" class="num num5 black">
+				<p>5</p>
+			</div>
+			<div id="num" class="num num6 black">
+				<p>6</p>
+			</div>
+			<div id="num" class="num num7 black">
+				<p>7</p>
+			</div>
+			<div id="num" class="num num8 black">
+				<p>8</p>
+			</div>
+			<div id="num" class="num num9 black">
+				<p>9</p>
+			</div>
+			<div id="num" class="num num10 black">
+				<p>10</p>
+			</div>
+			<div id="num" class="num num11 black">
+				<p>11</p>
+			</div>
+			<div id="num" class="num num12 black">
+				<p>12</p>
+			</div>
+		</div>
+		<div id="center" class="center back-black"></div>
+		<div id="hour-hand" class="back-black"></div>
+		<div id="min-hand" class="back-black"></div>
+		<div id="sec-hand"></div>
+	</div>
+	<div id='digital' class="digital black">
+		<div class="label black" id="label">
+			<p>hr  :  min  :  sec</p>
+		</div>
+		<div class="display-box">
+			<div class="box hr-box"><p id="hr"></p></div>
+			<div class="box min-box"><p id="min"></p></div>
+			<div class="box sec-box"><p id="sec"></p></div>
+		</div>
+		<div id="am-pm" class="info black"></div>
+		<div id="day" class="info day black"></div>
+		<div id="month" class="info month black"></div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
