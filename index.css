@@ -5,6 +5,7 @@
 }
 html,body{
 	height: 100%;
+	overflow: hidden;
 }
 @font-face{
 	font-family: 'Montserrat-Regular';
@@ -32,6 +33,15 @@ body{
 .black{
 	color: #1b1e22;
 }
+.clock-cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100% - 60px);
+	margin-top: 60px;
+	width: 100%;
+}
 .header{
 	color: red;
 	display: flex;
@@ -47,6 +57,8 @@ body{
 	font-size: 23px;
 	font-weight: bold;
 	box-shadow: 0 4px 6px rgba(0,0,0,.28);
+	background: #E0E0E0;
+	z-index: 1111;
 }
 .cont{
 	display: flex;
@@ -101,7 +113,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
 	background-color: #E0E0E0;
 	background-size: cover;
 	background-position: center;
@@ -328,12 +339,15 @@ body{
 .info{
 	position: absolute;
 	bottom: 4px;
-	right: 26px;
 	font-size: 12px;
+	font-family: 'Montserrat-Regular';
+}
+.am-pm{
+	right: 25.5px;
 }
 .day{
-	left: 22px;
+	left: 19px;
 }
 .month{
-	left: 44.5%;
+	left: 43%;
 }
